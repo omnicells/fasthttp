@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/omnicells/crypto/tls"
 )
 
 var errNoCertOrKeyProvided = errors.New("cert or key has not provided")
