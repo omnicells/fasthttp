@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/omnicells/crypto/tls"
 )
 
 // Do performs the given http request and fills the given http response.
