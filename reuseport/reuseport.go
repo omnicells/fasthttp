@@ -12,7 +12,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/omnicells/tcplisten"
+	"github.com/valyala/tcplisten"
 )
 
 // Listen returns TCP listener with SO_REUSEPORT option set.

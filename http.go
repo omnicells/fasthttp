@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/omnicells/bytebufferpool"
+	"github.com/valyala/bytebufferpool"
 )
 
 // Request represents HTTP request.

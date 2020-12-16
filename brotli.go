@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/andybalholm/brotli"
-	"github.com/omnicells/bytebufferpool"
+	"github.com/valyala/bytebufferpool"
 	"github.com/omnicells/fasthttp/stackless"
 )
 

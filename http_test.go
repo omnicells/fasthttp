@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/omnicells/bytebufferpool"
+	"github.com/valyala/bytebufferpool"
 )
 
 // Don't send the fragment/hash/# part of a URL to the server.

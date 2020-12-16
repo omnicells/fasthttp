@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/omnicells/bytebufferpool"
+	"github.com/valyala/bytebufferpool"
 )
 
 // Writer is an interface stackless writer must conform to.

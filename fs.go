@@ -18,7 +18,7 @@ import (
 
 	"github.com/andybalholm/brotli"
 	"github.com/klauspost/compress/gzip"
-	"github.com/omnicells/bytebufferpool"
+	"github.com/valyala/bytebufferpool"
 )
 
 // ServeFileBytesUncompressed returns HTTP response containing file contents
