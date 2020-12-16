@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/valyala/fasthttp"
+	"github.com/omnicells/fasthttp"
 )
 
 // FasthttpHTTPDialer returns a fasthttp.DialFunc that dials using

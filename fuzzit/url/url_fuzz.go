@@ -5,7 +5,7 @@ package fuzz
 import (
 	"bytes"
 
-	"github.com/valyala/fasthttp"
+	"github.com/omnicells/fasthttp"
 )
 
 func Fuzz(data []byte) int {

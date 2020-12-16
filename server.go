@@ -318,7 +318,7 @@ type Server struct {
 	//
 	// Disabled header names' normalization may be useful only for proxying
 	// incoming requests to other servers expecting case-sensitive
-	// header names. See https://github.com/valyala/fasthttp/issues/57
+	// header names. See https://github.com/omnicells/fasthttp/issues/57
 	// for details.
 	//
 	// By default request and response header names are normalized, i.e.
@@ -1729,7 +1729,7 @@ func (s *Server) Serve(ln net.Listener) error {
 			// There is a hope other servers didn't reach their
 			// concurrency limits yet :)
 			//
-			// See also: https://github.com/valyala/fasthttp/pull/485#discussion_r239994990
+			// See also: https://github.com/omnicells/fasthttp/pull/485#discussion_r239994990
 			if s.SleepWhenConcurrencyLimitsExceeded > 0 {
 				time.Sleep(s.SleepWhenConcurrencyLimitsExceeded)
 			}
@@ -2481,7 +2481,7 @@ func (s *Server) acquireCtx(c net.Conn) (ctx *RequestCtx) {
 // conn is used only for determining local and remote addresses.
 //
 // This function is intended for custom Server implementations.
-// See https://github.com/valyala/httpteleport for details.
+// See https://github.com/omnicells/httpteleport for details.
 func (ctx *RequestCtx) Init2(conn net.Conn, logger Logger, reduceMemoryUsage bool) {
 	ctx.c = conn
 	ctx.logger.logger = logger
